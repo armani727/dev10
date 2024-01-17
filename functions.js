@@ -42,7 +42,7 @@ function rungame() {
   moveHeli();
 
   // constrain speed (max/min)
-  if (heli.spedd > 5) {
+  if (heli.speed > 5) {
     heli.speed = 5;
   } else if (heli.speed < -5) {
     heli.speed = -5;
